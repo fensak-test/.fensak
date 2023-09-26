@@ -1,0 +1,10 @@
+# The fensak configuration file for this org (fensak-test).
+# Refer to https://github.com/fensak-io/fensak/blob/main/fskconfig/schema.json
+# for the expected config schema.
+
+repos:
+  test-github-webhooks:
+    ruleFile: subfolder/allow_readme_changes.js
+    ruleLang: es6
+  test-fensak-rules-engine:
+    ruleFile: app_deploy_rule.ts
