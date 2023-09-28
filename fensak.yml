@@ -1,6 +1,9 @@
 # The fensak configuration file for this org (fensak-test).
 # Refer to https://github.com/fensak-io/fensak/blob/main/fskconfig/schema.json
 # for the expected config schema.
+#
+# Update the following to force a refetch in Fensak:
+# version: 0d1517b4-1427-4b1b-907e-0223ba3179c3
 
 repos:
   test-github-webhooks:
