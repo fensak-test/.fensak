@@ -13,3 +13,4 @@ repos:
     ruleLang: es6
   test-fensak-automated-appdeploy:
     ruleFile: app_deploy_rule.ts
+    requiredApprovalsForMachineUsers: 2
