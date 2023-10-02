@@ -6,8 +6,10 @@
 # version: 0d1517b4-1427-4b1b-907e-0223ba3179c3
 
 repos:
-  test-github-webhooks:
+  test-fensak-rules-engine:
+    ruleFile: app_deploy_rule.ts
+  test-fensak-automated-readme-only:
     ruleFile: subfolder/allow_readme_changes.js
     ruleLang: es6
-  test-fensak-rules-engine:
+  test-fensak-automated-appdeploy:
     ruleFile: app_deploy_rule.ts
