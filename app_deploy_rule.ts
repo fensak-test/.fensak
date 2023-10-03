@@ -14,7 +14,7 @@
 import type {
   ILineDiff,
   IPatch,
-} from "https://raw.githubusercontent.com/fensak-io/fensak/7df207f8f1e5ea1b76e338cf309dc1e9516c9c9d/patch/patch_types.ts";
+} from "npm:@fensak-io/reng@^1.0.7";
 // fensak remove-end
 
 // deno-lint-ignore no-unused-vars
