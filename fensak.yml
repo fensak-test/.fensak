@@ -12,5 +12,5 @@ repos:
     ruleFile: subfolder/allow_readme_changes.js
     ruleLang: es6
   test-fensak-automated-appdeploy:
+    requiredRuleFile: source_branch_rule.ts
     ruleFile: app_deploy_rule.ts
-    requiredApprovalsForMachineUsers: 2
