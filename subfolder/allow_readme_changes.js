@@ -1,4 +1,4 @@
-function main(inp) {
+function main(inp, _metadata) {
   const numPatches = inp.length;
   if (numPatches == 0) {
     // No files updated, so approve.

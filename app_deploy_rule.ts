@@ -12,13 +12,14 @@
 
 // fensak remove-start
 import type {
+  IChangeSetMetadata,
   ILineDiff,
   IPatch,
-} from "npm:@fensak-io/reng@^1.0.7";
+} from "npm:@fensak-io/reng@^1.1.3";
 // fensak remove-end
 
 // deno-lint-ignore no-unused-vars
-function main(inp: IPatch[]): boolean {
+function main(inp: IPatch[], _metadata: IChangeSetMetadata): boolean {
   const numPatches: number = inp.length;
   if (numPatches == 0) {
     // No files updated, so approve.
